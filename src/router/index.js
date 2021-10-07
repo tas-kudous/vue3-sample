@@ -19,6 +19,9 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
+  // If you want to use "history mode", please uncomment this and import 'createWebHistory'.
+  // (More Information: https://router.vuejs.org/ja/guide/essentials/history-mode.html)
+  // history: createWebHistory(),
   routes
 })
 
